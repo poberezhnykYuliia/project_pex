@@ -1,0 +1,233 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* common styles */
+.nav-button button, .main2-algn button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 10px auto;
+    color: white;
+    background-color: #211940;
+    border: none;
+    transition-duration: .8s;
+}
+.main2-algn button {
+    background-color: white;
+    color: #5c548a;
+}
+.main2-algn button:hover {
+    color: white;
+    background-color: #211940;
+    transition-duration: .8s;
+}
+.main5-item button{
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 10px auto;
+    transition-duration: .8s;
+    
+   
+  
+}
+.d-flex input {
+    border-radius: 20px;
+}
+.navbar-nav li{
+    padding-left: 15px;
+    padding-right: 20px;
+    color: white;
+}
+/* .navbar-nav li:hover{
+   border-bottom: 2px solid white;
+  
+} */
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link, .navbar-light .navbar-brand{
+
+    color: white;
+}
+.container-fluid {
+    padding: 0;
+}
+/* common styles */
+.flex-btwn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* position: relative; */
+    
+    
+  
+
+}
+.container-fluid nav {
+    border-bottom: 1px solid white ;
+}
+.nav-bck{
+    background-image: url(https://cdn.wallpapersafari.com/3/89/53j19Z.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  
+}
+
+.nav-align {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 92vh;
+    padding-left: 50px  ;
+    color: white;
+    /* position: relative; */
+    
+}
+.main1 {
+    background-color: #211940;
+    color: white;
+    padding: 30px 50px ;
+    /* height: 50vh; */
+
+}
+.main2 {
+    background-color: gray;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: url(https://a-static.besthdwallpaper.com/prekrasnaya-priroda-oboi-2560x1600-74448_7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        width: 100%;
+        padding: 0;
+    
+}
+.main2-back {
+    background-color: #5c548aa4;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+   
+}
+
+.main3 {
+    padding: 0;
+    /* height: 50vh; */
+}
+.main3 img {
+    height: 100%;
+}
+.block-img img {
+    width: 100%;
+    padding: 0;
+    /* height: 50vh; */
+    
+}
+.block-text {
+    padding: 60px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.main4 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://images3.alphacoders.com/853/thumb-1920-85305.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    padding: 0;
+    
+}
+.main4-back {
+    background-color: #5c548abb;
+    height: 100%;
+    padding-top: 80px;
+    color: white;
+    /* margin-top: 50px */
+}
+.main4-back p {
+    color: rgb(177, 175, 175);
+}
+.main5 {
+    display: flex;
+    flex-direction: column;
+    /* width: 60%;
+    margin: 0 auto 0 auto; */
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(https://www.popsci.com/uploads/2020/06/05/3NIEQB3SFVCMNHH6MHZ42FO6PA.jpg?auto=webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 80vh;
+    width: 100%; */
+    height: 70vh;
+    padding-left: 100px;
+    padding-top: 100px;
+    
+}
+.icon-text {
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+
+}
+.icon img {
+    width: 32px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.main5-items {
+    text-align: left;
+}
+.main5-item {
+    margin: 10px;
+    color: white;
+}
+
+.footer1 {
+    background-color: #5c548aa4;
+    color: white;
+    height: 60vh;
+
+}
+.footer1 a {
+    color: white;
+}
+.footer2 {
+    background-color: #211940;
+    color: white;
+    height: 40vh;
+}
+.footer {
+    padding-top: 40px;
+}
+.p-l {
+    padding-left: 50px;
+}
+.p-r {
+    padding-right: 50px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
